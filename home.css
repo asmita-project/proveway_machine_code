@@ -1,0 +1,213 @@
+
+
+.mainBox{
+    width: 50%;
+    margin: 50px auto;
+    height: 600px;
+    /* background: aqua; */
+}
+
+.bundleandsavebox{
+    padding: 20px 0px 20px 0px;
+    justify-content: center;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 100%
+}
+
+.bundleVerticle{
+    width: 35%;
+    /* width: 200px; */
+    /* border: 1px solid green; */
+    height: 1px;
+    /* color: red; */
+    background: #C8C8C8;
+}
+
+.bundleAndsavetext{
+    width: 30%;
+    font-family: "Metropolis";
+font-size: 20px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: #007F61;
+
+}
+
+.box1{
+    display: flex;
+    justify-content: space-between;
+   
+    align-items: end;
+  
+}
+.radiobox{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.itemText{
+    font-weight: 400;
+    font-size: 17px;
+}
+.itemSubtitle{
+    font-weight: 600;
+    font-size: 17px;
+}
+.mostPopular{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+}
+.mostPopularText{
+    color:#007F61;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.MainBox1{
+    border:1px solid #C8C8C8;
+    margin-bottom: 25px;
+    background: white;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.dropdownsize{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    width: 100%;
+    align-items: flex-end;
+}
+
+.dropdownbox{
+    width: 100%;
+    
+}
+#dropdownbox{
+    display: none;
+}
+
+#dropdownbox1{
+    display: none;
+}
+
+#dropdownbox2{
+    display: none;
+}
+#mostpopulardata{
+    display: none;
+}
+
+#mostpopulardata1{
+    display: none;
+}
+#mostpopulardata2{
+    display: none;
+}
+
+#strikedata{
+    display: none;
+}
+
+.dropdowncolor{
+    width: 20%;
+}
+
+#strikedata1{
+    display: none;
+}
+
+.dropdowncolor1{
+    width: 20%;
+}
+
+#strikedata2{
+    display: none;
+}
+
+.dropdowncolor1{
+    width: 20%;
+}
+
+
+
+select{
+    width: 100%;
+    padding: 5px;
+    font-size: 13px;
+    border-radius: 4px;
+}
+.sizeboxtext{
+    padding-bottom: 5px;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+option{
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.numberbox{
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* #BoxOne{
+ background-color: #F4FBF9;
+} */
+
+.free2dayshippingbox{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.addtocartbox{
+    padding: 15px;
+    /* margin-bottom: 20px; */
+    background: #007F61;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.addtocarttext{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.Poweredbypumperbox{
+    display: flex;
+    justify-content: flex-end;
+}
+.powerdboxtext{
+    color: black;
+    font-size: 12px;
+}
+
+input[type=radio]#one {
+    accent-color: #007F61;
+}
+
+input[type=radio]#two {
+    accent-color: #007F61;
+}
+
+input[type=radio]#three {
+    accent-color: #007F61;
+}
